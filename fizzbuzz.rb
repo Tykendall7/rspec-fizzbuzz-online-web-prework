@@ -2,11 +2,11 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(int)
-  if int % 3 == 0 && int % 5 == 0 # if the number int is divisible by 3
+  if int % 3 == 0 && int % 5 == 0 
     "Fizzbuzz" # Go fizzbuzz
-    elsif int % 5 == 0 # if the number int is divisible by 5
+    elsif int % 5 == 0 
     "Buzz" # Go buzz
-    else int % 3 == 0 # if the number int is divisible by 3
+    elsif int % 3 == 0 
     "Fizz" # Go fizzbuz
   end
 end
