@@ -3,11 +3,11 @@
 
 def fizzbuzz(int)
   if (int % 3 == 0) && (int % 5 == 0) 
-    "Fizzbuzz" # Go fizzbuzz
+    "Fizzbuzz" 
     elsif int % 5 == 0 
-    "Buzz" # Go buzz
+    "Buzz"
     elsif int % 3 == 0 
-    "Fizz" # Go fizzbuz
+    "Fizz" 
   end
 end
 
