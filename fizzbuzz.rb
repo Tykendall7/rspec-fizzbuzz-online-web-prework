@@ -10,7 +10,6 @@ def fizzbuzz (int)
     "Buzz"
   else
     nil
-  end
 end
 
 fizzbuzz(3) # => You should see a return of "Fizz"
