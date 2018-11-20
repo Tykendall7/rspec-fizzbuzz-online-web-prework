@@ -3,16 +3,15 @@
 
 def fizzbuzz (int)
   if (int % 5 == 0) && (int % 3 == 0) 
-    return "Fizzbuzz" 
-    elsif int % 3 == 0 
+    return "fizzbuzz" 
+  elsif int % 3 == 0 
     "Fizz"     
-    elsif int % 5 == 0 
+  elsif int % 5 == 0 
     "Buzz"
   else
     nil
 end
 end 
-end
 
 fizzbuzz(3) # => You should see a return of "Fizz"
 fizzbuzz(5) # => You should see a return of nil
